@@ -121,6 +121,8 @@
                     Click="OpenSettings"
                     Padding="-10,0,0,0"
                     Header="{locale:Locale MenuBarOptionsSettings}"
+                    HotKey="{OnPlatform Ctrl+\,, macOS=⌘+\,}"
+                    InputGesture="{OnPlatform Ctrl+\,, macOS=⌘+\,}"
                     ToolTip.Tip="{locale:Locale OpenSettingsTooltip}" />
                 <MenuItem
                     Command="{Binding ManageProfiles}"
